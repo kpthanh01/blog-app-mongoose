@@ -1,0 +1,29 @@
+{
+  "name": "blogpost-mongoose",
+  "version": "1.0.0",
+  "description": "A blog post app that incorporates MongoDB/mongoose",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpthanh01/blog-app-mongoose.git"
+  },
+  "author": "Kevin Pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpthanh01/blog-app-mongoose/issues"
+  },
+  "homepage": "https://github.com/kpthanh01/blog-app-mongoose#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "express": "^4.16.3",
+    "mocha": "^5.1.0",
+    "mongoose": "^5.0.14",
+    "morgan": "^1.9.0"
+  }
+}

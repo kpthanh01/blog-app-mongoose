@@ -2,3 +2,11 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: fHPXspecFo6YRv3eq2aINg7c9UyJ/OGS/uVlH1wdTLHuHymxP7mWirxGY/uomfBnhmMyQgOajsUyxztm1HzqMAg+lxeYm/08V9QdqcNSSMfN6PfYhJUbPJnsEBuEYx6RVRThyVpciwXzl7hMpEOydty+0xlHzeTYLgcZJPbI+mivMDbyOOLyIVoX2tEOweFpvqopeCDGKaYZHLOqez7V4QYu122GB65gOEv953WTZZ4QuoZMVpDcivCT2NIowGy6YnrlPMLaxTrYbdUdLltMWy1Ulmu+eQAsD/mav8AoHscoLhfr66l9o3lOGvi6Vaj1FdARgAXct5//oEUD6EoN27Ci+BW7EoWCfsYSl61CxfRQACL4ZX7q6oPDLAzYZO9KfZotzgsyGk0xCNvAWbZQag80UveQtL/WR9Ao/3uh0OCJ11Fb6DquZIJldXSz3kPqC5iEXsGP0YOvd5+1wAA4k69buOfeGkADcKT0Qg9ac6xiECK1ua2okQnyOBwTocQ7vJb8fqkqCQL07ZjStTyKuC6/w2lzC/8YYFPG9DOkE6LVehXAMXFD1pgYKXQdiCD66Jekln5NecU1AG0U6nqr/cOyNBGWiFHuw9sQ4HRAmeHXvj7XaPnu6GZY9tO7TIQSwPPuqCTALPI0CLPedGitDUdTPHgdwx1ppQ1sJPMhBKc=
+  app: kp-blog-post-mongoose
+  on:
+    repo: kpthanh01/blog-app-mongoose
+    branch: feature/tests
